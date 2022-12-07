@@ -2,8 +2,8 @@
 """Define the HBnB console."""
 import cmd
 import re
-from shlex import split
 from models import storage
+from shlex import split
 from models.base_model import BaseModel
 from models.user import User
 from models.state import State
